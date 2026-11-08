@@ -12,6 +12,16 @@ Grāmata "<<nosaukums>>" (<<gads>>), <<lappušu skaits>> lpp
 
 # 7. Izvadīt autorus alfabētiskā secībā, lai tie neatkārtotos
 # Autoru kārtošanai uz kopētā saraksta var izmantot funkciju sort(), norādot kārtošanas funkciju
+"""
+sort(key = lambda elem: elem[key])
+"""
+# vai
+"""
+def fun1(elem):
+    return elem[key]
+
+sort(key=fun1)
+"""
 
 # 8. Izvadīt autoru, kuram pieder visvairāk grāmatu
 """
